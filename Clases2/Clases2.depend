@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539873781 source:d:\ccomp1\yahaira\clases2\main.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+
