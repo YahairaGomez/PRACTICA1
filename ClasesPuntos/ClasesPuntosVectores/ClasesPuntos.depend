@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1540478541 source:d:\yahaira\jueves 25-10-18\clasespuntos\main.cpp
+	<iostream>
+	"Punto.h"
+	"Vector.h"
+	"PuntoArray.h"
+
+1540476117 d:\yahaira\jueves 25-10-18\clasespuntos\include\punto.h
+
+1540475991 source:d:\yahaira\jueves 25-10-18\clasespuntos\src\punto.cpp
+	"Punto.h"
+	<iostream>
+
+1540478552 source:d:\yahaira\jueves 25-10-18\clasespuntos\src\vector.cpp
+	"Vector.h"
+	"Punto.h"
+	<iostream>
+	<math.h>
+	"PuntoArray.h"
+
+1540476766 d:\yahaira\jueves 25-10-18\clasespuntos\include\vector.h
+	"Punto.h"
+
+1540478575 d:\yahaira\jueves 25-10-18\clasespuntos\include\puntoarray.h
+	"Punto.h"
+	"Vector.h"
+
+1540478780 source:d:\yahaira\jueves 25-10-18\clasespuntos\src\puntoarray.cpp
+	"PuntoArray.h"
+	"Punto.h"
+	"Vector.h"
+
