@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1541521795 source:d:\control ccomp\control\main.cpp
+	<iostream>
+	"Animal.h"
+	"Perro.h"
+	"Loro.h"
+	"Gato.h"
+
+1541521773 source:d:\control ccomp\control\src\animal.cpp
+	"Animal.h"
+	<iostream>
+
+1541521773 d:\control ccomp\control\include\animal.h
+	<iostream>
+
+1541519823 d:\control ccomp\control\include\perro.h
+	"Animal.h"
+	<iostream>
+
+1541521773 d:\control ccomp\control\include\loro.h
+	"Animal.h"
+	<iostream>
+
+1541521773 d:\control ccomp\control\include\gato.h
+	"Animal.h"
+	<iostream>
+
+1541521295 source:d:\control ccomp\control\src\funciones.cpp
+	"Funciones.h"
+	"Animal.h"
+	"Perro.h"
+	"Loro.h"
+	"Gato.h"
+	<iostream>
+
+1541521050 d:\control ccomp\control\include\funciones.h
+	"Animal.h"
+	"Perro.h"
+	"Loro.h"
+	"Gato.h"
+
+1541522115 source:d:\control ccomp\control\src\gato.cpp
+	"Gato.h"
+	"Animal.h"
+	<iostream>
+
+1541522075 source:d:\control ccomp\control\src\loro.cpp
+	"Loro.h"
+	"Animal.h"
+	<iostream>
+
+1541522075 source:d:\control ccomp\control\src\perro.cpp
+	"Perro.h"
+	"Animal.h"
+	<iostream>
+
