@@ -15,8 +15,21 @@ int main()
     Loro l("Loro", 4, 10);
     l.habla();
 
+    Animal arr[]={p,g,l};
+    int size=sizeof(arr)/sizeof(arr[0]);
+    //lista
+    for(int i=0; i<size; i++){
+        arr[i].habla();
+    }
+    ArrayAnimal pa2 (arr, size);
+    //constructor copia
+    ArrayAnimal p3=pa2;
+    p3.push_back(p);
+    p3.habla();
+    //inserrt
+    p3.insert(2,l);
+    p3.habla();
 
-//    void arr[4]={a,p,g,l};
 
     return 0;
 }
