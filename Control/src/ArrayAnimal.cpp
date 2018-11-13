@@ -62,7 +62,3 @@ void ArrayAnimal::remove(const int pos){
 
 }
 
-void ArrayAnimal::habla(){
-
-
-}
