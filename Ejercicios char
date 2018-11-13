@@ -3,7 +3,7 @@
 using namespace std;
 //EJERCICIO : PALINDROMO
 bool palindr(char cadena[]){
-int lend=0;  //tamaño de lista
+int lend=0;  //tamaÃ±o de lista
 for(int i=0;cadena[i]!='\0';i++){  //de 0 hasta el fin de cadena
     lend++;  //len de lista
     }
