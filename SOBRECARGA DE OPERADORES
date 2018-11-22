@@ -1,0 +1,24 @@
+template<typename P,typename S>
+ ArrayPunto<P,S> operator + ( ArrayPunto<P,S> o1, ArrayPunto<P,S> o2){
+        ArrayPunto<P, S> concatenar;
+        int tamanho=0;
+         concatenar.size=o1.size + o2.size ;
+         for(int i=0; i< o1.size; i++){
+
+            concatenar.puntos[tamanho]= o1.puntos[i];
+            tamanho++;
+         }
+        for (int i=o1.size+1; i<o2.size;i++){
+            concatenar.puntos[tamanho]= o2.puntos[i];
+            tamanho++;
+        }
+        return concatenar;
+
+
+ }
+ int main(){
+ 
+  ArrayPunto<Punto<int>, int> arrVacio;
+
+    arrVacio = arr1 + arrP1;
+    arrVacio.print();
